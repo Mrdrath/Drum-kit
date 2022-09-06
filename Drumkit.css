@@ -1,42 +1,61 @@
 * {
   text-align: center;
-  background-color: rgb(144, 187, 100);
+  background-image: url("future.png");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1 {
+
+ h1 {
   font-size: 5rem;
   font-family: cursive;
-
   text-shadow: 5px 2px cadetblue;
+  margin-top: 3.5% ;
+
 }
+
 .m {
   background-image: url("sound1.png");
-  object-fit: cover;
+  background-size: 150px 150px ;
+  
 }
 
 .r {
-  background-image: url("sound2.jpg");
+  background-image: url("sound2.png");
+  background-size: 150px 150px ;
 }
 
 .d {
   background-image: url("sound3.jpg");
+  background-size: 150px 150px ;
 }
 
 .s {
   background-image: url("sound4.jpg");
+  background-size: 150px 150px ;
 }
 
 .a {
   background-image: url("sound5.jpg");
+  background-size: 150px 150px ;
 }
 
 .t {
   background-image: url("sound6.jpg");
+  background-size: 150px 150px ;
 }
 
 .h {
   background-image: url("sound7.png");
+  background-size: 150px 150px ;
 }
+/* .m.r.d.s.a.t.h{
+  background-size: 150px 150px ;
+} */
+
 button {
   outline: none;
   border: 10px solid #404b69;
@@ -54,12 +73,41 @@ button {
   margin: 10px;
   background-color: white;
 }
+.button:hover{
+    
+  transform: scale(0.9);
+  border-color: rgb(215, 142, 212);
+}
 .all {
-  margin: 10% auto;
+  margin: 9% 0 11% auto;
 }
 
 .animation {
-  border-color: red;
+  border-color: rgb(182, 12, 12);
   border-width: 0px;
   opacity: 0.8;
 }
+
+.copyright {
+  
+  text-align: center;
+  font-family:  "Arvo", cursive ;
+  font-size: 2rem;
+  display: inline-block;
+  opacity: 1;
+  border-style: ridge;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 5px;
+  }
+  
+p:hover span {
+    content:none;
+}
+p:hover:before{
+    content:'Enjoy playing Drum by clicking or pressing onwritten key!!';
+}
+  
+  
+
+  
